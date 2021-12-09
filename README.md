@@ -3,7 +3,7 @@
 *Updated 2021-12-09.*
 
 The department of Environmental Research and Monitoring at
-the Swedish Museum of Natural History (NRM) is responsible for
+the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
 several monitoring programmes involving wildlife populations
 and environmental contaminants. This generates large amounts
 of data and many questions regarding their statistical analysis.
