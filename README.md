@@ -111,9 +111,28 @@ For some time-series in our monitoring programmes, practise has changed over tim
 of this project is to evaluate the effect of such a change on estimates of trend. What bias can
 we expect if we treat the mixture concentrations as log-normally distributed? Can we correct for this bias using some approximation of the distribution of sums of log-normals?
 
+### Project: Using the LASSO for laboratory intercalibration (Bachelor)
+
+In long-term monitoring programmes of contaminants it is important minimize the
+effects of changes in sampling protocols and chemical analytical methods over 
+time, to ensure they do not confound changes in contaminant concentrations. 
+
+Recently, the NRM has been forced to consult a new laboratory for measurement
+of some contaminants. To investigate possible systematic differences between the
+old and the new lab, a number of samples have been analysed by both and correction
+factors have been devised when results differ.
+
+A common approach is to devise a correction when there is a statistically 
+significant difference in measurements between laboratories. An alternative is
+to use the LASSO, [LASSO](https://en.wikipedia.org/wiki/Lasso_(statistics)),
+which simultaneously estimates coefficients and decides when to correct. This 
+project will compare the two approaches, in particular how they perform
+in relation to subsequent trend estimates.
+
+
 ## Other
 
-### Porpoise autopsy (Bachelor)
+### Project: Porpoise autopsy (Bachelor)
 
 The harbour porpoise is the only endemic species of whale in the Baltic sea. Current estimates suggests that only a few hundred animals remain of the population.
 
