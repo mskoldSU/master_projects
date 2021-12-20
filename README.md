@@ -1,4 +1,4 @@
-# Thesis topics in mathematical statistics, Spring 2021
+# Thesis topics in mathematical statistics, Spring 2022
 
 *Updated 2021-12-09.*
 
