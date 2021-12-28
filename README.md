@@ -1,6 +1,6 @@
 # Thesis topics in mathematical statistics, Spring 2022
 
-*Updated 2021-12-09.*
+*Updated 2021-12-28.*
 
 The department of Environmental Research and Monitoring at
 the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
@@ -41,6 +41,7 @@ monitored using its own method, e.g. acoustic detection
 posing unique statistical challenges for the estimation
 of abundance, trends and possibly harvest quotas.
 
+
 ### Project: Harbour seal abundance in Kalmar Sound (Master)
 
 The Kalmar Sound hosts a genetically unique population
@@ -69,7 +70,7 @@ of Bayesian statistics and computation will be useful but not essential.
 ### Project: Individual heterogeneity in brown bear catchability (Bachelor/Master)
 
 The Swedish brown bear population is monitored by volunteers collecting
-scat samples that are sent for genetic identification to NRM. Under ideal
+scat samples that are sent for genetic identification to NRM ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)). Under ideal
 conditions, when samples can be assumed a random draw from the population,
 the number of samples found from a particular individual will follow a
 Poisson distribution. This can be utilized to estimate the proportion of
@@ -86,6 +87,20 @@ based on data from the Swedish monitoring programme and try to answer
 whether the population size can be reliably estimated.
 
 In a master thesis, more focus would lie on the spatial aspects of sample collection.
+
+### Project: Bears across borders (Bachelor) (NEW)
+
+The brown bear monitoring programme ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)) is based on a rotating scheme, where one out of four
+regions are surveyed in a particular year (in the fifth year there is no survey). Since
+hunting quotas are set at the regional level, it is important to be able to estimate the
+number of animals in each region. However,  bears
+often have large home-ranges intersecting several regions, and a single animal may
+contribute to the population estimate of more than one region.
+
+This project will evaluate the bias in population estimates introduced by animals
+counted more than once. It will use the locations of scat samples to estimate the extent 
+animal home-ranges, e.g. by fitting bivariate normal distributions, and the proportions they
+intersect with surveyed regions.
 
 ## Environmental contaminants 
 
