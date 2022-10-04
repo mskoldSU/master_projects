@@ -1,6 +1,6 @@
-# Thesis topics in mathematical statistics, Spring 2022
+# Thesis topics in mathematical statistics
 
-*Updated 2021-12-28.*
+*Updated 2022-10-04.*
 
 The department of Environmental Research and Monitoring at
 the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
@@ -42,7 +42,7 @@ posing unique statistical challenges for the estimation
 of abundance, trends and possibly harvest quotas.
 
 
-### Project: Harbour seal abundance in Kalmar Sound (Master)
+### Project: Harbour seal abundance in Kalmar Sound (Master or ambitious bachelor)
 
 The Kalmar Sound hosts a genetically unique population
 of harbour seals. Seals are counted from the air three
@@ -67,40 +67,6 @@ critically evaluate its usefulness for estimating abundance. Good
 skills in working with data will be important for the project, knowledge
 of Bayesian statistics and computation will be useful but not essential.
 
-### Project: Individual heterogeneity in brown bear catchability (Bachelor/Master)
-
-The Swedish brown bear population is monitored by volunteers collecting
-scat samples that are sent for genetic identification to NRM ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)). Under ideal
-conditions, when samples can be assumed a random draw from the population,
-the number of samples found from a particular individual will follow a
-Poisson distribution. This can be utilized to estimate the proportion of
-individuals for which no samples are found, and hence the size of the
-whole population.
-
-Unfortunately, conditions are not ideal and there is strong evidence of
-individual heterogeneity in catchability. Some bears are more likely to
-be sampled than others, and we need to find a model of how this varies
-among individuals. [Link (2003)](https://doi.org/10.1111/j.0006-341X.2003.00129.x)
-argues that popular models for heterogeneity are difficult to distinguish and may give
-very different results. In this project you will perform a similar analysis
-based on data from the Swedish monitoring programme and try to answer
-whether the population size can be reliably estimated.
-
-In a master thesis, more focus would lie on the spatial aspects of sample collection.
-
-### Project: Bears across borders (Bachelor) (NEW)
-
-The brown bear monitoring programme ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)) is based on a rotating scheme, where one out of four
-regions are surveyed in a particular year (in the fifth year there is no survey). Since
-hunting quotas are set at the regional level, it is important to be able to estimate the
-number of animals in each region. However,  bears
-often have large home-ranges intersecting several regions, and a single animal may
-contribute to the population estimate of more than one region.
-
-This project will evaluate the bias in population estimates introduced by animals
-counted more than once. It will use the locations of scat samples to estimate the extent 
-animal home-ranges, e.g. by fitting bivariate normal distributions, and the proportions they
-intersect with surveyed regions.
 
 ## Environmental contaminants 
 
@@ -147,15 +113,56 @@ in relation to subsequent trend estimates.
 
 ## Other
 
-### Project: Porpoise autopsy (Bachelor)
+### Project: Porpoise necropsy (Bachelor)
 
 The harbour porpoise is the only endemic species of whale in the Baltic sea. Current estimates suggests that only a few hundred animals remain of the population.
 
 When a dead porpoise is found stranded or mistakenly caught in fishing gear, it is sent for
-autopsy at the National Veterinary Institute (usually assisted by people from NRM). Here, a
+necropsy at the National Veterinary Institute (usually assisted by people from NRM). Here, a
 number of measurements (e.g. length and weight, as well as circumference and blubber thickness
 at various sites) are taken in order to asses the health status of an individual. However,
 carcasses are often in poor condition and may be partly eaten by other animals. The purpose of
 this project is to find a model/method to predict e.g. the full weight of an animal, when some
 parts are missing. This could be based on [principal components analysis](https://en.wikipedia.org/wiki/Principal_component_analysis), based on animals where all measurements are available.
+
+
+
+# Old projects
+
+These projects have already been used, but it may be possible to look at alternative approaches.
+
+### Project: Individual heterogeneity in brown bear catchability (Bachelor/Master)
+
+The Swedish brown bear population is monitored by volunteers collecting
+scat samples that are sent for genetic identification to NRM ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)). Under ideal
+conditions, when samples can be assumed a random draw from the population,
+the number of samples found from a particular individual will follow a
+Poisson distribution. This can be utilized to estimate the proportion of
+individuals for which no samples are found, and hence the size of the
+whole population.
+
+Unfortunately, conditions are not ideal and there is strong evidence of
+individual heterogeneity in catchability. Some bears are more likely to
+be sampled than others, and we need to find a model of how this varies
+among individuals. [Link (2003)](https://doi.org/10.1111/j.0006-341X.2003.00129.x)
+argues that popular models for heterogeneity are difficult to distinguish and may give
+very different results. In this project you will perform a similar analysis
+based on data from the Swedish monitoring programme and try to answer
+whether the population size can be reliably estimated.
+
+In a master thesis, more focus would lie on the spatial aspects of sample collection.
+
+### Project: Bears across borders (Bachelor) 
+
+The brown bear monitoring programme ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)) is based on a rotating scheme, where one out of four
+regions are surveyed in a particular year (in the fifth year there is no survey). Since
+hunting quotas are set at the regional level, it is important to be able to estimate the
+number of animals in each region. However,  bears
+often have large home-ranges intersecting several regions, and a single animal may
+contribute to the population estimate of more than one region.
+
+This project will evaluate the bias in population estimates introduced by animals
+counted more than once. It will use the locations of scat samples to estimate the extent 
+animal home-ranges, e.g. by fitting bivariate normal distributions, and the proportions they
+intersect with surveyed regions. 
 
