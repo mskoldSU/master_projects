@@ -1,6 +1,6 @@
 # Thesis topics in mathematical statistics
 
-*Updated 2022-10-04.*
+*Updated 2022-12-02.*
 
 The department of Environmental Research and Monitoring at
 the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
@@ -26,6 +26,30 @@ to e.g. [Statistical Data Processing](https://sisu.it.su.se/search/archive_info/
 in addition to the formal requirements for the thesis work.
 
 *Contact:* If you are interested in a project or have questions, contact [Martin Sköld](https://www.nrm.se/ommuseet/kontakt/sokmedarbetare.10484.html?sv.url=12.6321786f122df65955f80007928&state=detail&userId=247.9ac8e13d01fc764c839e34686702ad37)
+
+
+## Pollen monitoring
+
+The department is responsible for the national [pollen forecast](https://pollenrapporten.se), working as an aid to people with allergies. 
+As part of this work, pollen are on a daily basis caught on sticky tapes in traps and manually counted and classified by species in microscope.
+
+### New (22-12-02): Pollen time-series analysis (a group of Bachelor students, but master level projects may also be considered)
+
+During spring semester 2023 we hope to host a group of bachelor students investigating statistical aspects connected to our database of pollen counts. The database contains bi-hourly counts of a variety of pollen species at a number of stations. Topics could involve investigating meteorological factors (using open data from SMHI) influencing season onset or extent, connections to sales of antihistamines (using open data from Socialstyrelsen), next-day forecasting or diurnal patterns.
+
+![](figs/salix.png)
+
+*Figure: Profiles of daily counts of Salix pollen from our database.*
+
+### New (22-12-02): Classification of pollen images (Master)
+
+Automatic detection and classification of pollen using machine learning has been an active field of research during the past decade. In this topic you will investigate methods of counting pollen by species on microscopic plate images. The process will essentially consist of first detecting and extracting objects from species reference sample images, training a (or several for comparison) machine learning algorithm to distinguish between species and evaluate the algorithm's performance on images containing a mixture of species. The algorithm may be compared both to manual counts (performed by museum staff) and an alternative approach based on DNA-sequencing.
+
+Note that this project will necessarily involve some practical computational challenges related to e.g. feature extraction from images. 
+
+![](figs/pollen.png)
+
+*Figure: Part of microscopic image of Sunflower pollen reference sample.*
 
 ## Wildlife monitoring
 
