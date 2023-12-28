@@ -1,6 +1,6 @@
 # Thesis topics in mathematical statistics
 
-*Updated 2022-12-02.*
+*Updated 2023-12-28.*
 
 The department of Environmental Research and Monitoring at
 the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
@@ -28,20 +28,28 @@ in addition to the formal requirements for the thesis work.
 *Contact:* If you are interested in a project or have questions, contact [Martin Sköld](https://www.nrm.se/ommuseet/kontakt/sokmedarbetare.10484.html?sv.url=12.6321786f122df65955f80007928&state=detail&userId=247.9ac8e13d01fc764c839e34686702ad37)
 
 
+## Bird ringing (New 2024)
+
+The Swedish bird ringing scheme is one of the oldest in the world, with records dating back to 1911. It is administered by the museum and currently hosts a database with more than 9 million individual records. Data is used for a variety of purposes, including studies of migration, population dynamics and survival.
+
+In spring 2024 we hope to host group of bachelor students working on statistical aspects of the database. The projects may involve a combination of data analysis and simulation studies.
+
 ## Pollen monitoring
 
 The department is responsible for the national [pollen forecast](https://pollenrapporten.se), working as an aid to people with allergies. 
 As part of this work, pollen are on a daily basis caught on sticky tapes in traps and manually counted and classified by species in microscope.
 
-### New (22-12-02): Pollen time-series analysis (a group of Bachelor students, but master level projects may also be considered)
+### Pollen time-series analysis (a group of Bachelor students, but master level projects may also be considered)
 
-During spring semester 2023 we hope to host a group of bachelor students investigating statistical aspects connected to our database of pollen counts. The database contains bi-hourly counts of a variety of pollen species at a number of stations. Topics could involve investigating meteorological factors (using open data from SMHI) influencing season onset or extent, connections to sales of antihistamines (using open data from Socialstyrelsen), next-day forecasting or diurnal patterns.
+During spring semester 2023 we hope to host a group of bachelor students investigating statistical aspects connected to our database of pollen counts. *Update*: Only one student used this data in 2023 ([Brehmer, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2023/2023_14_report.pdf)), there is room for topics on the same/similar data in spring 2024. The database contains bi-hourly counts of a variety of pollen species at a number of stations. Topics could involve investigating meteorological factors (using open data from SMHI) influencing season onset or extent, connections to sales of antihistamines (using open data from Socialstyrelsen), next-day forecasting or diurnal patterns.
 
 ![](figs/salix.png)
 
 *Figure: Profiles of daily counts of Salix pollen from our database.*
 
-### New (22-12-02): Classification of pollen images (Master)
+### Classification of pollen images (Master)
+
+*A project has been done on this topic ([Crompton, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Master/2023/2023_17_report.pdf)), but there is scope for alternative takes.* 
 
 Automatic detection and classification of pollen using machine learning has been an active field of research during the past decade. In this topic you will investigate methods of counting pollen by species on microscopic plate images. The process will essentially consist of first detecting and extracting objects from species reference sample images, training a (or several for comparison) machine learning algorithm to distinguish between species and evaluate the algorithm's performance on images containing a mixture of species. The algorithm may be compared both to manual counts (performed by museum staff) and an alternative approach based on DNA-sequencing.
 
@@ -103,18 +111,6 @@ contaminants in biota. Within these programmes, concentrations of a wide array o
 measured in (mainly) fish collected at various marine and freshwater locations. This generates
 several thousands of time-series that are monitored for trends usng statistical methods.
 
-### Project: Log-normal averages are not log-normal (Bachelor)
-
-Variations in chemical concentrations are often modelled using a log-normal distribution. Hence, if 
-we collect *n* fish samples and measure the concentration of a toxin in each, their log-concentrations are assumed to follow a normal distribution.
-
-Sometimes, as a possibly more cost-effective way of measuring, concentrations are measured in
-a mixture of *k* fish (essentially *k* fish put in a blender) rather than in individual fishes. The resulting concentration may then be interpreted as the arithmetic mean of the concentrations in the *k* individuals. But the arithmetic mean of *k* log-normally distributed
-variables does not follow a log-normal distribution. The distribution does not even have a simple form (see [Dufresne (2008)](http://ozdaniel.com/A/DufresneLognormalsARC2008.pdf) for a review of the problem).
-
-For some time-series in our monitoring programmes, practise has changed over time. The purpose
-of this project is to evaluate the effect of such a change on estimates of trend. What bias can
-we expect if we treat the mixture concentrations as log-normally distributed? Can we correct for this bias using some approximation of the distribution of sums of log-normals?
 
 ### Project: Using the LASSO for laboratory intercalibration (Bachelor)
 
@@ -135,9 +131,34 @@ project will compare the two approaches, in particular how they perform
 in relation to subsequent trend estimates.
 
 
-## Other
+
+
+
+
+# Old projects
+
+These projects have already been used, but it may be possible to look at alternative approaches.
+
+### Project: Log-normal averages are not log-normal (Bachelor)
+
+*Done in ([Nordlund, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2023/2023_15_report.pdf))*
+
+Variations in chemical concentrations are often modelled using a log-normal distribution. Hence, if 
+we collect *n* fish samples and measure the concentration of a toxin in each, their log-concentrations are assumed to follow a normal distribution.
+
+Sometimes, as a possibly more cost-effective way of measuring, concentrations are measured in
+a mixture of *k* fish (essentially *k* fish put in a blender) rather than in individual fishes. The resulting concentration may then be interpreted as the arithmetic mean of the concentrations in the *k* individuals. But the arithmetic mean of *k* log-normally distributed
+variables does not follow a log-normal distribution. The distribution does not even have a simple form (see [Dufresne (2008)](http://ozdaniel.com/A/DufresneLognormalsARC2008.pdf) for a review of the problem).
+
+For some time-series in our monitoring programmes, practise has changed over time. The purpose
+of this project is to evaluate the effect of such a change on estimates of trend. What bias can
+we expect if we treat the mixture concentrations as log-normally distributed? Can we correct for this bias using some approximation of the distribution of sums of log-normals?
+
 
 ### Project: Porpoise necropsy (Bachelor)
+
+*Done in ([Helms, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2023/2023_19_report.pdf))*
+
 
 The harbour porpoise is the only endemic species of whale in the Baltic sea. Current estimates suggests that only a few hundred animals remain of the population.
 
@@ -151,11 +172,9 @@ parts are missing. This could be based on [principal components analysis](https:
 
 
 
-# Old projects
-
-These projects have already been used, but it may be possible to look at alternative approaches.
-
 ### Project: Individual heterogeneity in brown bear catchability (Bachelor/Master)
+
+*Done in ([Hjortskov, 2022](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2022/2022_15_report.pdf), similar projects also by [Hättestrand, 2022](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2022/2022_13_report.pdf) and [Persson, 2022](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2022/2022_12_report.pdf))*
 
 The Swedish brown bear population is monitored by volunteers collecting
 scat samples that are sent for genetic identification to NRM ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)). Under ideal
@@ -177,6 +196,9 @@ whether the population size can be reliably estimated.
 In a master thesis, more focus would lie on the spatial aspects of sample collection.
 
 ### Project: Bears across borders (Bachelor) 
+
+*Done in ([Andersson, 2022](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2022/2023_14_report.pdf))*
+
 
 The brown bear monitoring programme ([description of programme](https://www.nrm.se/forskningochsamlingar/miljoforskningochovervakning/viltovervakning/brunbjorn/inventeringsarbete.9005859.html)) is based on a rotating scheme, where one out of four
 regions are surveyed in a particular year (in the fifth year there is no survey). Since
