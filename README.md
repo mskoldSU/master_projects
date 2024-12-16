@@ -1,6 +1,6 @@
 # Thesis topics in mathematical statistics
 
-*Updated 2023-12-28.*
+*Updated 2024-12-16.*
 
 The department of Environmental Research and Monitoring at
 the [Swedish Museum of Natural History](https://www.nrm.se/) (NRM) is responsible for
@@ -22,32 +22,46 @@ should not be afraid to learn new statistical methods
 and approaches.
 
 *Prerequisites:* You should be fluent in R, corresponding
-to e.g. [Statistical Data Processing](https://sisu.it.su.se/search/archive_info/MT5013/en?archive=1),
+to e.g. [Statistical Data Processing](https://www.su.se/sok-kurser-och-program/mt4007-1.537801),
 in addition to the formal requirements for the thesis work.
 
-*Contact:* If you are interested in a project or have questions, contact [Martin Sköld](https://www.nrm.se/ommuseet/kontakt/sokmedarbetare.10484.html?sv.url=12.6321786f122df65955f80007928&state=detail&userId=247.9ac8e13d01fc764c839e34686702ad37)
+*Contact:* If you are interested in a project or have questions, contact Martin Sköld (martin.skold@nrm.se).
 
 
-## Bird ringing (New 2024)
+## Bird ringing (Spring 2025)
 
-The Swedish bird ringing scheme is one of the oldest in the world, with records dating back to 1911. It is administered by the museum and currently hosts a database with more than 9 million individual records. Data is used for a variety of purposes, including studies of migration, population dynamics and survival.
+The Swedish bird ringing scheme is one of the oldest in the world, with records dating back to 1911. It is administered by the museum and currently hosts a database with more than 9 million individual records. Data is used for a variety of purposes, including studies of migration, population dynamics and survival. 
 
-In spring 2024 we hope to host group of bachelor students working on statistical aspects of the database. The projects may involve a combination of data analysis and simulation studies.
+Currently there are no specific projects defined, but if you have an interest in bird ringing data, we can discuss topics with the Bird Ringing Central.
+
 
 ## Pollen monitoring
 
 The department is responsible for the national [pollen forecast](https://pollenrapporten.se), working as an aid to people with allergies. 
-As part of this work, pollen are on a daily basis caught on sticky tapes in traps and manually counted and classified by species in microscope.
+As part of this work, pollen are on a daily basis caught on sticky tapes in traps and manually counted and classified by species in microscope. Recently we have started to investigate the 
+possibility of automating this process using image analysis and machine learning.
 
-### Pollen time-series analysis (a group of Bachelor students, but master level projects may also be considered)
+### Project Spring 2025: The [Poleno Jupiter](https://www.swisens.ch/en/swisenspoleno-jupiter) automatic pollen trap (Bachelor) 
 
-During spring semester 2023 we hope to host a group of bachelor students investigating statistical aspects connected to our database of pollen counts. *Update*: Only one student used this data in 2023 ([Brehmer, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2023/2023_14_report.pdf)), there is room for topics on the same/similar data in spring 2024. The database contains bi-hourly counts of a variety of pollen species at a number of stations. Topics could involve investigating meteorological factors (using open data from SMHI) influencing season onset or extent, connections to sales of antihistamines (using open data from Socialstyrelsen), next-day forecasting or diurnal patterns.
+The Poleno Jupiter is an automatic pollen trap that uses image analysis to count and classify pollen. The trap has been tested in Stockholm during the 2024 season and the data generated is in need of analysis. 
 
-![](figs/salix.png)
+*Investigating classification performance.* The trap is able to classify pollen into different species, but the accuracy of the classification is not known. In this project you will evaluate the classification 
+performance of the trap, comparing it to manual counts of the same samples. Suitable methods include e.g. confusion matrices and ROC curves.
 
-*Figure: Profiles of daily counts of Salix pollen from our database.*
+*Image clustering.* The trap generates images of pollen grains, which can be analysed using image analysis methods. It also returns basic information about the size and shape of the grains. In this project you will investigate how the images can be clustered based on their features, and whether the clusters correspond to different pollen species.
 
-### Classification of pollen images (Master)
+![](figs/poleno.jpg)
+*Figure: Counts of Alder (alnus) and Birch (betula) pollen in made by the Poleno in Stockholm during the 2024 season. Since the alder season ends in April, the May counts are most likely due to birch-pollen being misclassified as alder. This can be used to estimate part of the confusion matrix of the algorithm.*
+
+### Project Spring 2025: Optimising the location of pollen traps (Bachelor) 
+
+The pollen forecast is based on data from a network of pollen traps located in different parts of the country. It is however not clear whether the current distribution of traps is optimal for 
+the purpose of forecasting pollen levels. In this project you will investigate how well the current network of traps captures the spatial variation in 
+pollen seasons, and suggest improvements to the network. Suitable methods for this project include e.g. [multidimensional scaling](https://en.wikipedia.org/wiki/Multidimensional_scaling) and cluster analysis.
+
+
+
+### Project: Classification of pollen images (Master)
 
 *A project has been done on this topic ([Crompton, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Master/2023/2023_17_report.pdf)), but there is scope for alternative takes.* 
 
@@ -112,7 +126,20 @@ measured in (mainly) fish collected at various marine and freshwater locations. 
 several thousands of time-series that are monitored for trends usng statistical methods.
 
 
+
+
+
+
+
+
+
+# Old projects
+
+These projects have already been used, but it may be possible to look at alternative approaches.
+
 ### Project: Using the LASSO for laboratory intercalibration (Bachelor)
+
+* Done in ([Dinan, 2024](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2024/2024_12_report.pdf))*
 
 In long-term monitoring programmes of contaminants it is important minimize the
 effects of changes in sampling protocols and chemical analytical methods over 
@@ -130,14 +157,12 @@ which simultaneously estimates coefficients and decides when to correct. This
 project will compare the two approaches, in particular how they perform
 in relation to subsequent trend estimates.
 
+### Pollen time-series analysis 
+
+ *Done in ([Brehmer, 2023](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2023/2023_14_report.pdf)) and ([Magnusson, 2024](https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2024/2024_7_report.pdf)).
 
 
 
-
-
-# Old projects
-
-These projects have already been used, but it may be possible to look at alternative approaches.
 
 ### Project: Log-normal averages are not log-normal (Bachelor)
 
